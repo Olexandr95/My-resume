@@ -1,10 +1,279 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title> Hello World </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oleksandr Ruschak resume</title>
+    <link rel="normalize" href="./css/modern-normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1> Hello World</h1>
+    <!--main container-->
+    <section class="wrapper">
+      <div class="sidebar">
+        <img
+          class="foto"
+          src="./images/Oleksandr_Rushchak_resume.jpg"
+          alt="Foto Oleksandr Ruschak"
+        />
+
+        <!--Contacts container-->
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <ul class="contacts-list">
+            <li>
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-address-book"></use>
+              </svg>
+              <span class="contacts-country">Transcarpathia, Ukraine</span>
+            </li>
+            <li>
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-mobile"></use>
+              </svg>
+              <a class="contacts-link" href="tell: 38 098 514 98 98"
+                >+38 098 514 98 98</a
+              >
+            </li>
+            <li>
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              <a
+                class="contacts-link"
+                href="mailto: alexandr.ruschak95@gmail.com"
+                >alexandr.ruschak95@gmail.com</a
+              >
+            </li>
+            <li>
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-github"></use>
+              </svg>
+              <a class="contacts-link" href="https://github.com/Olexandr95"
+                >https://github.com/Olexandr95</a
+              >
+            </li>
+            <li>
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+              <a
+                class="contacts-link"
+                href="https://www.linkedin.com/in/oleksandr-rushchak-944219242/"
+                >https://www.linkedin.com/in/oleksandr-rushchak-944219242/</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--Tech skills container-->
+        <div class="skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul>
+            <li class="skills-item">
+              <p class="skills">HTML</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">CSS3</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">GIT</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">WebPack</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">JavaScript</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">React.js</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Redux - in progress</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Node.js - in progress</p>
+            </li>
+          </ul>
+        </div>
+        <!-- Soft skills container -->
+        <div class="skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul>
+            <li class="skills-item">
+              <p class="skills">Teamwork</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Stress tolerance</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Self-motivation</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Responsibility</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">Time management</p>
+            </li>
+          </ul>
+        </div>
+        <!-- Languages container-->
+        <div class="skills-container">
+          <h3 class="sidebar-title">Languages</h3>
+          <ul>
+            <li class="skills-item">
+              <p class="skills">Ukrainian - native</p>
+            </li>
+            <li class="skills-item">
+              <p class="skills">English - Intermidiate</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--about me container-->
+      <div class="about-me">
+        <!--about me main info-->
+        <div class="about-me-main-info">
+          <h1 class="name">Oleksandr Rushchak</h1>
+          <h2 class="profession">Front-End Developer</h2>
+
+          <p class="information">
+            I’m looking for interesting job as a front-end developer. My goal is
+            to create great websites and apps that solve human problems. I am
+            interested in: HTML, CSS, JavaScript, React.
+          </p>
+        </div>
+
+        <!--projects container-->
+        <section class="information-section">
+          <h3 class="information-title">Projects</h3>
+          <ul>
+            <li class="number-information">
+              <div class="projects-item-container">
+                <h3>Project name:</h3>
+                <p class="project-name">Epam</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>Project link:</h3>
+                <a
+                  class="contacts-link"
+                  href="https://olexandr95.github.io/Epam/"
+                  >https://olexandr95.github.io/Epam/
+                </a>
+              </div>
+              <div class="projects-item-container">
+                <h3>Technologies:</h3>
+                <p class="projects-text">HTML5, CSS3, Bootstrap, GIT</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>My position:</h3>
+                <p class="projects-text">Front-End Developer</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>My task:</h3>
+                <p class="projects-text">
+                  Layout full page
+                </p>
+              </div>
+              <h3>About project:</h3>
+              <p class="projects-text">
+               Landing page to introduce and attract clients 
+              </p>
+            </li>
+            <li class="number-information">
+              <div class="projects-item-container">
+                <h3>Project name:</h3>
+                <p class="project-name">Star Wars</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>Project link:</h3>
+                <a
+                  class="contacts-link"
+                  href="https://olexandr95.github.io/React-redax-basic"
+                  >https://olexandr95.github.io/React-redax-basic
+                </a>
+              </div>
+              <div class="projects-item-container">
+                <h3>Technologies:</h3>
+                <p class="projects-text">HTML5, CSS3, SASS, JS, Webpack, Styled-components, React, React-router-dom, React-redux, Yarn ,GIT</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>My position:</h3>
+                <p class="projects-text">Front-End Developer</p>
+              </div>
+              <div class="projects-item-container">
+                <h3>My task:</h3>
+                <p class="projects-text">Layout full page</p>
+              </div>
+              <h3>About project:</h3>
+              <p class="projects-text">
+                Landing page to introduce product
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="information-section">
+          <h3 class="information-title">Work Experience</h3>
+          <!--company 1-->
+          <h4 class="company">Lifecell LLC</h4>
+          <ul>
+            <li class="number-information">
+              <p class="profession-item">Sales Representative</p>
+              <span class="profession-time">November 2020 - May 2022</span>
+            </li>
+          </ul>
+          <h4 class="company">Kyivstar LLC</h4>
+          <ul>
+            <li class="number-information">
+              <p class="profession-item">Sales Representative</p>
+              <span class="profession-time">January 2018 - October 2020</span>
+            </li>
+          </ul>
+        </section>
+        <!-- Education container -->
+        <section>
+          <h3 class="information-title">Education</h3>
+          <ul>
+            <li class="number-information">
+              <h3 class="company">EPAM Front-End-Program-Spring-2022</h3>
+              <p class="education">Front-End developer</p>
+              <span class="profession-time"
+                >March 2022 - July 2022
+                <span class="line-in-time">|</span>
+                Ukraine
+              </span>
+            </li>
+            <li class="number-information">
+              <h3 class="company">CURSOR.EDUCATION</h3>
+              <p class="education">Front-End developer</p>
+              <span class="profession-time"
+                >May 2022 - up to now
+                <span class="line-in-time">|</span>
+                Ukraine
+              </span>
+            </li>
+            <li class="number-information">
+              <h3 class="company">
+                National University «Lviv Polytechnic»
+              </h3>
+              <p class="education">
+                Management in the Field of Economic Competition
+              </p>
+              <span class="profession-time"
+                >Septermber 2012 - January 2017
+                <span class="line-in-time">|</span>
+                Ukraine</span
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
   </body>
-  
 </html>
